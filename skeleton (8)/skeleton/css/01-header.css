@@ -3,4 +3,39 @@ body {
     font-weight: normal;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
+    background: white;
 }
+
+.header {
+    background-color: red;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    text-decoration: none;
+}
+
+.header-logo {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.header-list {
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100vw - 300px);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+/* .header-list li {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+} */
