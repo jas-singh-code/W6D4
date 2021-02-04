@@ -27,10 +27,11 @@ body {
 .header-list {
     margin-right: auto;
     margin-left: auto;
-    width: calc(100vw - 300px);
+    width: calc(100vw - 700px);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-decoration: none;
+    /* float: right; */
 }
 
 /* .header-list li {

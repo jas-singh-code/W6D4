@@ -6,14 +6,15 @@
   <title>App Academy Friends | PHASE 0: Reset</title>
   <link rel="stylesheet" href="css/00-reset.css" type="text/css">
   <link rel="stylesheet" href="css/01-header.css" type="text/css">
-</head>
-
-  <body>
-  <style>
+  <link rel="stylesheet" href="css/02-notifications.css" type="text/css">
+  <!-- <style>
     #GFG {
       text-decoration: none;
     }
-  </style>
+  </style> -->
+</head>
+
+  <body>
     <header class="header">
       
       <nav class="header-nav">
@@ -23,7 +24,15 @@
         </h1>
   
         <ul class="header-list">
-          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Notifications<strong class="badge">3</strong></a>
+            <ul class="header-notifications"> 
+              <li> <a href="#">Megan likes your photo</a></li>
+              <li> <a href="#">Chad followed you</a></li>
+              <li> <a href="#">Rich left you a comment</a></li>
+
+            </ul>
+          </li>
+
           <li><a href="#">Profile</a></li>
           <li><a href="#">Settings</a></li>
         </ul>
