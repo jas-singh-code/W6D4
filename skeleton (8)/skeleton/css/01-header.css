@@ -1,2 +1,6 @@
 /* PHASE 1: Header */
-
+body {
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
